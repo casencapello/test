@@ -11,7 +11,7 @@ import signal
 ethereal = commands.Bot(command_prefix=None, intents=discord.Intents.all())
 
 ethereal.command_prefix = get_prefix
-ethereal.owner_id = 1037376739296432210
+ethereal.owner_id = 1078824925575512094
 
 @ethereal.event
 async def on_ready():
