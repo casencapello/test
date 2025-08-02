@@ -1,6 +1,6 @@
 {
   "client_id": "1401322430185607179",
   "client_secret": "6BFMNPSexU3NjwCoRGz1m62Q0dn7H3bk",
-  "redirect_uri": "https://yourapp.com/callback",
+  "redirect_uri": "https://test-zup2.onrender.com",
   "secret_key": "2kr7ej9snz71mfp4ksnzh1udpn0tqk86"
 }
