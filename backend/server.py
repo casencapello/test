@@ -5,8 +5,9 @@ import requests
 import discord
 import os
 
-with open(".\\backend\\config.json", "r") as r:
+with open(os.path.join("backend", "config.json"), "r") as r:
     config = json.load(r)
+
 
 app = Flask(__name__, template_folder=os.path.join(os.getcwd(), "frontend\\html"), static_folder=os.path.join(os.getcwd(), "frontend\\static"))
 app.secret_key = "placeholder"
