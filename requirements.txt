@@ -4,3 +4,4 @@ pymongo
 Pillow
 requests
 wavelink
+flask
