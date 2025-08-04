@@ -9,8 +9,8 @@ class Music(commands.Cog):
         self.skip_votes = {}
 
     async def setup_hook(self) -> None:
-        nodes = [wavelink.Node(uri="http://localhost:2333", password="youshallnotpass")]
-        await wavelink.Pool.connect(nodes=nodes, client=self.bot, cache_capacity=100)
+        # nodes = [wavelink.Node(uri="http://localhost:2333", password="youshallnotpass")]
+        # await wavelink.Pool.connect(nodes=nodes, client=self.bot, cache_capacity=100)
 
     @commands.Cog.listener()
     async def on_wavelink_node_ready(self, payload: wavelink.NodeReadyEventPayload) -> None:
