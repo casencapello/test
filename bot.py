@@ -15,6 +15,7 @@ ethereal.owner_id = 1078824925575512094
 
 @ethereal.event
 async def on_ready():
+    print("Ready event triggered!") 
     print(f'Logged in as {ethereal.user.name}')
 
     for foldername, subfolders, filenames in os.walk("cogs"):
