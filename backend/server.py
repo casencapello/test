@@ -47,7 +47,7 @@ def index():
     user_info = get_discord_user(session['access_token'])
     user_id = user_info.get('id', None)
     
-    return render_template('index.html', user_id=user_id)
+    return f"Authenticated! User ID: {user_id}"
 
 @app.route("/callback")
 def callback():
